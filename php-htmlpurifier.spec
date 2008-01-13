@@ -1,4 +1,5 @@
 Summary:	Standards-compliant HTML filter library written in PHP
+Summary(pl.UTF-8):	Zgodna ze standardami biblioteka filtrująca HTML napisana w PHP
 Name:		htmlpurifier
 Version:	2.1.3
 Release:	0.1
@@ -24,6 +25,14 @@ known as XSS) with a thoroughly audited, secure yet permissive
 whitelist, it will also make sure your documents are standards
 compliant, something only achievable with a comprehensive knowledge of
 W3C's specifications.
+
+%description -l pl.UTF-8
+HTML Purifier to zgodna ze standardami biblioteka filtrująca HTML
+napisana w PHP. Nie tylko usuwa cały niebezpieczny kod (bardziej znany
+jako XSS) z dobrze zaudytowaną i bezpieczną listą przypadków
+akceptowanych, ale także upewnia się, że dokumenty są zgodne ze
+standardami, co jest zwykle osiągalne tylko z dobrą znajomością
+specyfikacji W3C.
 
 %prep
 %setup -q
