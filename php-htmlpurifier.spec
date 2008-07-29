@@ -1,12 +1,12 @@
 Summary:	Standards-compliant HTML filter library written in PHP
 Summary(pl.UTF-8):	Zgodna ze standardami biblioteka filtrująca HTML napisana w PHP
 Name:		htmlpurifier
-Version:	2.1.3
-Release:	0.1
+Version:	2.1.5
+Release:	1
 License:	LGPL v2.1
 Group:		Development/Languages/PHP
 Source0:	http://htmlpurifier.org/releases/%{name}-%{version}.zip
-# Source0-md5:	6c6294789ef1d4198ce0dcb7fcd4d7de
+# Source0-md5:	129939e86c0afbec6d0bc87f5dcd6adc
 URL:		http://htmlpurifier.org/
 BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRequires:	sed >= 4.0
