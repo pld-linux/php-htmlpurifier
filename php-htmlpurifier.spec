@@ -10,6 +10,7 @@ Source0:	http://htmlpurifier.org/releases/%{name}-%{version}.zip
 URL:		http://htmlpurifier.org/
 BuildRequires:	rpmbuild(macros) >= 1.268
 BuildRequires:	sed >= 4.0
+BuildRequires:	unzip
 Requires:	php-common >= 3:4.3.2
 Suggests:	php(iconv)
 Suggests:	php(tidy)
