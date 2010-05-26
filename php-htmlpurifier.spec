@@ -25,6 +25,7 @@ Requires:	php-spl
 Requires:	php-xml
 Suggests:	php-iconv
 Suggests:	php-tidy
+Obsoletes:	htmlpurifier
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
