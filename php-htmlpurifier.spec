@@ -14,9 +14,9 @@ Group:		Development/Languages/PHP
 Source0:	http://htmlpurifier.org/releases/htmlpurifier-%{version}.tar.gz
 # Source0-md5:	d8a4388a7fe475db6a625f0c1b30bcae
 URL:		http://www.htmlpurifier.org/
+BuildRequires:	rpm-php-pearprov
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	sed >= 4.0
-BuildRequires:	unzip
 Requires:	php-common >= 4:%{php_min_version}
 Requires:	php-ctype
 Requires:	php-dom
