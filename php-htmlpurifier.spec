@@ -8,7 +8,7 @@ Summary:	Standards-compliant HTML filter library written in PHP
 Summary(pl.UTF-8):	Zgodna ze standardami biblioteka filtrująca HTML napisana w PHP
 Name:		php-htmlpurifier
 Version:	4.1.0
-Release:	2
+Release:	3
 License:	LGPL v2.1
 Group:		Development/Languages/PHP
 Source0:	http://htmlpurifier.org/releases/htmlpurifier-%{version}.tar.gz
@@ -17,12 +17,12 @@ URL:		http://www.htmlpurifier.org/
 BuildRequires:	rpm-php-pearprov
 BuildRequires:	rpmbuild(macros) >= 1.553
 BuildRequires:	sed >= 4.0
+Requires:	php(core) >= %{php_min_version}
 Requires:	php(ctype)
 Requires:	php(dom)
 Requires:	php(pcre)
 Requires:	php(spl)
 Requires:	php(xml)
-Requires:	php-common >= 4:%{php_min_version}
 Suggests:	php-iconv
 Suggests:	php-tidy
 Obsoletes:	htmlpurifier
