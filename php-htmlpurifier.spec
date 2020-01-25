@@ -2,7 +2,6 @@
 # - phorum-mod-htmlpurifier package: plugins/phorum
 # - apidocs package: docs
 # - run tests
-%include	/usr/lib/rpm/macros.php
 %define		php_min_version 5.1.2
 Summary:	Standards-compliant HTML filter library written in PHP
 Summary(pl.UTF-8):	Zgodna ze standardami biblioteka filtrująca HTML napisana w PHP
